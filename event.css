@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(40,40,40);
+}
+.blog-section {
+    width: 100%;
+}
+.blog-section .section-content {
+    width: 85%;
+    margin: 20px auto;
+}
+.blog-section .section-content .title {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.blog-section .section-content .title h2 {
+    font-size: 40px;
+    color: red;
+    text-transform: uppercase;
+}
+.blog-section .section-content .title p {
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+}
+.blog-section .section-content .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin: 25px auto;
+    color: white;
+}
+.blog-section .section-content .cards .card {
+    width: 100%;
+    background-color: #f7f7f7;
+    position: relative;
+}
+.blog-section .section-content .cards .card img {
+    width: 100%;
+    height: auto;
+}
+.blog-section .section-content .cards .card .article {
+    padding: 15px 20px;
+}
+.blog-section .section-content .cards .card .article h4 {
+    font-size: 24px;
+    color: #4a4a4a;
+}
+.blog-section .section-content .cards .card .article p {
+    font-size: 16px;
+    margin: 10px 0px;
+    color: #6a6a6a;
+}
+.blog-section .section-content .cards .card a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #25c5c5;
+    padding: 8px 15px;
+    margin-left: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.blog-section .section-content .cards .card .posted-date p {
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    background-color: #25c5c5;
+    padding: 6px 15px;
+    color: #fff;
+}
+.main{
+    width: 100%;
+    background: rgb(40,40,40);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+}
+img {
+    width: 250px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+button {
+    border: none;
+    background: black;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.footer{
+    background-color: #24262b;
+    padding: 20px 0;
+}
+.footer-col{
+    width: 30%;
+    padding: 0 200px;
+}
+.footer-col h4{
+    font-size: 30px;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffff;
+    padding-left: 8px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    padding-top: 15px;
+  }
+h5 {
+    color: white;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight:normal; 
+}
+footer *{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+}
+.btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #000000;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.btn:hover, .btn:focus, .btn:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

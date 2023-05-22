@@ -1,0 +1,128 @@
+img {
+    width: 250px;
+}
+footer *{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(40,40,40);
+}
+.main{
+    width: 100%;
+    background: rgb(40,40,40);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+.center {
+    display: block;
+    margin-left: 625px;
+    margin-right: auto;
+    width: 10%;
+    padding-top: 15px;
+  }
+h2 {
+    color: white;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight:normal; 
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #24262b;
+    padding: 20px 0;
+}
+.footer-col{
+    width: 30%;
+    padding: 0 200px;
+}
+.footer-col h4{
+    font-size: 30px;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffff;
+    padding-left: 8px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+p {
+    color: white;
+}
+h1 {
+    color: white;
+}
+.container1 {
+    column-count: 3;
+    text-align: justify;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container1 p:first-of-type::first-letter{
+    font-size: 5em;
+    float: left;
+    line-height: 50%;
+    margin: 0.1em 0.1em 0.1em -0.05em;
+}
+.container1 img{
+    height: auto;
+    width: 100%;
+}
+.container1 h1{
+    column-span: all;
+    margin-top: 0;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 45px;
+}

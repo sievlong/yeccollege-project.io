@@ -1,0 +1,200 @@
+img {
+    width: 250px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(40,40,40);
+}
+.main{
+    width: 100%;
+    background: rgb(40,40,40);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 10%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+}
+.btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #000000;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.btn:hover, .btn:focus, .btn:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.search-form{
+    margin-top: 5px;
+    float: right;
+    margin-right: 70px;
+}
+input[type=text] {
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 200px;
+    margin-top: 60px;
+}
+
+footer *{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+}
+.footer{
+    background-color: #24262b;
+    padding: 20px 0;
+}
+.footer-col{
+    width: 30%;
+    padding: 0 200px;
+}
+.footer-col h4{
+    font-size: 30px;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffff;
+    padding-left: 8px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    padding-top: 15px;
+  }
+h3 {
+    color: white;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight:normal; 
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background: white;
+    width: 270px;
+    height: auto;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image {
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.car-1 {
+    background-image: url(new/1.png);
+}
+.car-2 {
+    background-image: url(new/2.jpeg);
+}
+.car-3 {
+    background-image: url(new/3.jpeg);
+}
+.card h2 {
+    padding: 10px;
+}
+.card p {
+    padding: 10px;
+}
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+.card:hover {
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
+h5 {
+    color: white;
+    font-size: 40px;
+    font-weight:normal; 
+    text-decoration: underline;
+    text-align: center;
+}

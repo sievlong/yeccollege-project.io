@@ -6,13 +6,13 @@ Follow these steps to install:
 Linus and macOS:
 
 ```
-  bash sudo git clone 
+  bash sudo git clone https://github.com/sievlong/yeccollege-project.io.git
 ```
 
 Window:
 
 ```
-  bash git clone 
+  bash git clone https://github.com/sievlong/yeccollege-project.io.git
 ```
 
 # Contact
